@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="seq_attendance_overtime" model="ir.sequence">
+        <field name="name">Attendance Overtime</field>
+        <field name="code">attendance.overtime</field>
+        <field name="prefix">OT/%(year)s/</field>
+        <field name="padding">5</field>
+    </record>
+</odoo>
